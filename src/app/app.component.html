@@ -1,2 +1,7 @@
 <h1>{{title}}</h1>
+<ul>
+    <li *ngFor="let user of Users">
+        {{user.name}} -- {{user.age}}
+    </li>
+</ul>
 <app-footer></app-footer>
